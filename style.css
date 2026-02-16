@@ -1,0 +1,317 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+}
+
+.container {
+  max-width: 1440px;
+  margin: auto;
+}
+
+.navbar-section {
+  width: 100%;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+  padding-block: 1.25rem;
+}
+
+.nav-items ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  gap: 75px;
+}
+
+.nav-items ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  font-style: medium;
+}
+
+.nav-icons ul {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  gap: 45px;
+}
+
+.nav-icons ul li a {
+  color: black;
+}
+
+.nav-title {
+  display: flex;
+  align-items: center;
+}
+
+.nav-title img {
+  width: 50px;
+  height: 32px;
+}
+
+.nav-title h1 {
+  font-size: 34px;
+  font-style: bold;
+  font-family: "Montserrat", sans-serif;
+}
+
+.mask-section {
+  width: 100%;
+  position: relative;
+}
+
+.mask-section img {
+  width: 100%;
+  height: 720px;
+}
+
+.mask-box {
+  background: #FFF3E3;
+  position: absolute;
+  top: 20%;
+  left: 52%;
+  width: 30%;
+  border-radius: 10px;
+}
+
+.mask-box-content {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  padding: 62px 43px;
+  gap: 30px;
+}
+
+.mask-title {
+  font-size: 16px;
+  font-family: "Poppins";
+  font-weight: SemiBold;
+  letter-spacing: 3px;
+}
+
+.mask-description {
+  font-size: 52px;
+  line-height: 65px;
+  font-family: "Poppins";
+  font-weight: bold;
+  color: #B88E2F;
+  max-width: 400px;
+  min-height: 127px;
+}
+
+.mask-text {
+  font-size: 18px;
+  font-weight: medium;
+  font-family: "Poppins";
+  line-height: 24px;
+}
+
+.mask-button {
+  color: #fff;
+  background: #B88E2F;
+  padding: 25px 72px;
+  border: 0;
+  max-width: 222px;
+  height: 74px;
+}
+
+.range-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 62px;
+  margin-top: 60px;
+}
+
+.range-content h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 32px;
+  font-style: bold;
+}
+
+.range-content p {
+  font-size: 20px;
+  font-family: "Poppins";
+  color: #666666;
+}
+
+.range-card-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.range-card p {
+  text-align: center;
+  font-size: 24px;
+  font-family: "Poppins";
+}
+
+.product-section {
+  margin-top: 56px;
+}
+
+.product-title {
+  font-family: "Poppins";
+  font-size: 40px;
+  line-height: 120%;
+  font-weight: bold;
+  text-align: center;
+}
+
+.product-card-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 35px;
+  margin-top: 35px;
+}
+
+.product-card {
+  position: relative;
+}
+
+.discount-bubble p{
+  position: absolute;
+  top: 34px;
+  left: 210px;
+
+  border-radius: 50%;
+  padding: 12px 5px;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+}
+
+.product-card-content {
+  background: #F4F5F7;
+  padding: 16px 16px 30px 20px;
+  width: 300px;
+  height: 145px;
+}
+
+.title {
+  font-size: 24px;
+  font-family: "Poppins";
+  font-weight: 600;
+}
+
+.description {
+  font-size: 16;
+  font-family: "Poppins";
+  font-weight: 500;
+  color: #898989;
+}
+
+.buy-content {
+  display: flex;
+  gap: 16px;
+}
+
+.price {
+  font-size: 20px;
+  font-weight: 600;
+  font-family: "Poppins";
+  line-height: 150%;
+}
+
+.discounted-price {
+  font-size: 16px;
+  color: #b0b0b0;
+  text-decoration: line-through;
+  font-family: "Poppins";
+}
+
+.product-card {
+  width: 300px;
+  font-family: sans-serif;
+}
+
+.product-card-image {
+  position: relative;
+  overflow: hidden;
+}
+
+.product-card-image img {
+  width: 100%;
+  display: block;
+}
+
+/* Koyu overlay */
+
+/* Koyu overlay */
+.product-card.overlay .product-card-content::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.5);
+  opacity: 0;
+  transition: 0.3s ease;
+}
+
+/* Overlay içeriği */
+.overlay-content {
+  position: absolute;
+  inset:0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  opacity: 0;
+  transition: 0.3s ease;
+  color: white;
+  z-index: 1;
+}
+
+/* Hover efekti */
+.product-card:hover .product-card-content::before{
+  opacity: 1;
+}
+
+.product-card:hover .overlay-content {
+  opacity: 1;
+}
+
+/* Buton */
+.add-to-cart {
+  background: white;
+  color: #b88e2f;
+  border: none;
+  padding: 12px 30px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+/* Alt aksiyonlar */
+.actions {
+  display: flex;
+  gap: 20px;
+  font-size: 14px;
+}
+
+.discount-bubble .new {
+  background-color: green;
+}
+
+.discount-bubble .discount{
+  background-color: #E97171;
+}
