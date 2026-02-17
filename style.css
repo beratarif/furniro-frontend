@@ -263,7 +263,7 @@ body {
   position: absolute;
   inset: 0;
   background: rgba(0, 0, 0, 0.5);
-  opacity: 0;
+  opacity: 1;
   transition: 0.3s ease;
 }
 
@@ -276,20 +276,20 @@ body {
   justify-content: center;
   align-items: center;
   gap: 20px;
-  opacity: 0;
+  opacity: 1;
   transition: 0.3s ease;
   color: white;
   z-index: 1;
 }
 
-/* Hover efekti */
+/* Hover efekti
 .product-card:hover .product-card-content::before{
   opacity: 1;
 }
 
 .product-card:hover .overlay-content {
   opacity: 1;
-}
+} */
 
 /* Buton */
 .add-to-cart {
@@ -299,6 +299,32 @@ body {
   padding: 12px 30px;
   font-weight: 600;
   cursor: pointer;
+}
+
+.show-more{
+  border: 2px solid #B88E2F;
+  display: flex;
+  margin: 0 auto;
+  padding: 12px 74px;
+  background-color: transparent;
+  color: #B88E2F;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  line-height: 150%;
+  margin-top: 32px;
+  text-align: center;
+  font-weight: 600;
+}
+
+
+.gallery-section{
+  background-color: #FCF8F3;
+}
+
+.gallery-right h1{ 
+  font-size: 40px;
+  font-weight: 700;
+  font-family: "Poppins";
 }
 
 /* Alt aksiyonlar */
